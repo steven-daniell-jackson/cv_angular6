@@ -1,0 +1,12 @@
+.backgroundGrey {background-color: #343a40;}
+.fontWhite {color: #fff;}
+.fontBlack {color: #000;}
+
+h2,h3,h4 {padding: 1% 0; margin-bottom: 2%;}
+div.work-life.wrapper {
+  padding: 2% 0;
+}
+
+div.additional-info.wrapper {
+  padding: 2% 0;
+}
