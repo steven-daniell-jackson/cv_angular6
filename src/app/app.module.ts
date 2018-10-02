@@ -8,6 +8,7 @@ import { ExperienceComponent } from './template/experience/experience.component'
 import { AboutMeComponent } from './template/about-me/about-me.component';
 import { HomeComponent } from './template/home/home.component';
 import { NavBarComponent } from './template-parts/nav-bar/nav-bar.component';
+import { FooterComponent } from './template-parts/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NavBarComponent } from './template-parts/nav-bar/nav-bar.component';
     ExperienceComponent,
     AboutMeComponent,
     HomeComponent,
-    NavBarComponent
+    NavBarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

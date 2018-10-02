@@ -6,7 +6,16 @@ h1,h2,h3 {text-transform: uppercase;}
 h1 {padding: 5% 0;}
 h2,h3,h4 {padding: 2% 0; margin-bottom: 2%;}
 h4 {font-weight: 400;}
-img {max-height: 44%;}
+/* img {max-height: 44%;} */
 
-/* About me */
+/* My Skills */
 
+div.progress {
+  height: 2rem;
+  margin: 5px 0;
+
+}
+
+ul {
+  list-style-type: none;
+}
