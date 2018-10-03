@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.row { margin: 0px; }
+.backgroundGrey {background-color: #343a40;}
+.fontWhite {color: #fff;}
+.fontBlack {color: #000;}
+div.container {padding: 0 0 3% 0;}
+h1,h2,h3 {text-transform: uppercase;}
+h1 {padding: 2rem 0;}
+h2,h3,h4 {padding: 2% 0;}
+h4 {font-weight: 400;}

@@ -11,11 +11,15 @@ import { HomeComponent } from './template/home/home.component';
 import { NavBarComponent } from './template-parts/nav-bar/nav-bar.component';
 import { FooterComponent } from './template-parts/footer/footer.component';
 import { HeaderComponent } from './template-parts/header/header.component';
+import { TaskHistoryComponent } from './template/task-history/task-history.component';
+import { PortfolioComponent } from './template/portfolio/portfolio.component';
 
 const routes = [
   {path: '', component: HomeComponent},
   {path: 'about-me', component: AboutMeComponent},
-  {path: 'experience', component: ExperienceComponent}
+  {path: 'experience', component: ExperienceComponent},
+  {path: 'portfolio', component: PortfolioComponent},
+  {path: 'taskhistory', component: TaskHistoryComponent}
 ];
 
 @NgModule({
@@ -26,7 +30,9 @@ const routes = [
     HomeComponent,
     NavBarComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    TaskHistoryComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
